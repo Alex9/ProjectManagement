@@ -18,5 +18,5 @@
     <asp:Label ID="UpDate" runat="server"></asp:Label>
     <br />
     <br />
-    <asp:Button ID="Button1" runat="server" Text="Update" />
+    <asp:Button ID="Button1" runat="server" Text="Update" onclick="Button1_Click" />
 </asp:Content>
