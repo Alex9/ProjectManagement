@@ -10,10 +10,10 @@
 <p>
         &nbsp;
          &nbsp;<asp:Label ID="Label1" runat="server" Text="Builder"></asp:Label>
-&nbsp;&nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="Label2" runat="server" Text="Builder ID"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        &nbsp;
 &nbsp;
+        <asp:Label ID="Label2" runat="server" Text="Builder ID"></asp:Label>
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Label ID="Label3" runat="server" Text="Master Plan"></asp:Label>
@@ -22,11 +22,10 @@
         </p>
     <p>
         &nbsp;<asp:Label ID="Label5" runat="server" Text="Status"></asp:Label>
-&nbsp;&nbsp;<asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         &nbsp;<asp:Label ID="Label6" runat="server" Text="Lots"></asp:Label>
-&nbsp;&nbsp;<asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;<asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label6" runat="server" Text="Lots"></asp:Label>
+&nbsp;<asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
         <asp:Label ID="Label7" runat="server" Text="Lot Width"></asp:Label>
 &nbsp;
         <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
@@ -47,8 +46,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>
         &nbsp;<asp:Label ID="Label12" runat="server" Text="Gross Acres"></asp:Label>
 &nbsp;
-        <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
         &nbsp;&nbsp;
+        <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
         &nbsp;<asp:Label ID="Label13" runat="server" Text="Home Price (Min)"></asp:Label>
 &nbsp;&nbsp;<asp:TextBox ID="TextBox12" runat="server"></asp:TextBox>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
